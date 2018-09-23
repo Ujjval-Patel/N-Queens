@@ -1,0 +1,10 @@
+#mysvg{
+  width:8000px;
+  height:8000px;
+   padding: 100px;
+}
+#container{
+  position: absolute;
+  top: 0%;
+  left:0%;
+}
