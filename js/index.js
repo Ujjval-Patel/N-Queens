@@ -277,7 +277,13 @@ $("#btnChess").click(function(){
 	if(!num){
     	$("#status").text("Enter number of cell");
     	return;
-	}else if(num > 1000){
+	}
+	else if(num==2 || num==3)
+	{
+		$("#status").text("No solutions possible!");
+    		return;
+	}
+	else if(num > 1000){
     	$("#status").text("Input < 10");
     	return;
 	}
