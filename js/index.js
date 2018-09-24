@@ -280,6 +280,7 @@ $("#btnChess").click(function(){
 	}
 	else if(num==2 || num==3)
 	{
+		clear();
 		$("#status").text("No solutions possible!");
     		return;
 	}
